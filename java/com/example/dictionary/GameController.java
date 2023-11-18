@@ -267,6 +267,7 @@ public class GameController implements Initializable {
 
     @FXML
     void moveKeyPress(KeyEvent event) {
+        System.out.println("move");
         switch (event.getCode()) {
             case LEFT -> {
                 if (!isLose) {
@@ -448,7 +449,7 @@ public class GameController implements Initializable {
         imagePath = "D:\\BTL\\Dictionary\\src\\main\\resources\\com\\example\\dictionary\\letterImage\\" + Character.toLowerCase(currentLetter) + ".jpg";
         letterImageView.setImage(new Image(imagePath));
 
-        letterImageView.setLayoutX(getLayoutXPane(1));
+        letterImageView.setLayoutX(getLayoutXPane(posIndex));
         letterImageView.setLayoutY(0);
 
         System.out.println("correct");
