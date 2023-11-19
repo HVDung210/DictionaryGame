@@ -51,6 +51,9 @@ public class GameController implements Initializable {
     private Pane pane7;
 
     @FXML
+    private Pane pane8;
+
+    @FXML
     private ImageView paneImage1;
 
     @FXML
@@ -70,6 +73,9 @@ public class GameController implements Initializable {
 
     @FXML
     private ImageView paneImage7;
+
+    @FXML
+    private ImageView paneImage8;
 
     @FXML
     private Label scoreLabel;
@@ -168,6 +174,9 @@ public class GameController implements Initializable {
             }
             case 7 -> {
                 return pane7.getLayoutX();
+            }
+            case 8 -> {
+                return pane8.getLayoutX();
             }
             default -> {
             }
@@ -307,7 +316,7 @@ public class GameController implements Initializable {
             selectRandomWord();
             displayWordExplain();
 
-            for (int i = 0; i < 7; i++) {
+            for (int i = 0; i < 8; i++) {
                 imageViewList.get(i).setVisible(false);
             }
 
@@ -340,6 +349,7 @@ public class GameController implements Initializable {
         panes.add(pane5);
         panes.add(pane6);
         panes.add(pane7);
+        panes.add(pane8);
     }
 
     public void addImageView() {
@@ -350,6 +360,7 @@ public class GameController implements Initializable {
         imageViewList.add(paneImage5);
         imageViewList.add(paneImage6);
         imageViewList.add(paneImage7);
+        imageViewList.add(paneImage8);
     }
 
     public void addLetterInPane() {
@@ -384,6 +395,7 @@ public class GameController implements Initializable {
             case 5 -> imageViewList.get(4).setImage(new Image(imagePath));
             case 6 -> imageViewList.get(5).setImage(new Image(imagePath));
             case 7 -> imageViewList.get(6).setImage(new Image(imagePath));
+            case 8 -> imageViewList.get(7).setImage(new Image(imagePath));
             default -> {
             }
         }
