@@ -9,50 +9,55 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionary.GameController">
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionary.GameController">
    <children>
       <ImageView fx:id="letterImageView" fitHeight="46.0" fitWidth="46.0" layoutX="100.0" pickOnBounds="true" preserveRatio="true" />
-      <Pane fx:id="pane1" accessibleRole="IMAGE_VIEW" layoutX="98.0" layoutY="350.0" prefHeight="50.0" prefWidth="50.0" style="-fx-border-width: 2px; -fx-border-color: #FF0000;">
+      <Separator layoutX="90.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="6.0" style="-fx-background-color: #6495ED;" />
+      <Pane fx:id="pane1" accessibleRole="IMAGE_VIEW" layoutX="98.0" layoutY="421.0" prefHeight="50.0" prefWidth="50.0" style="-fx-border-width: 2px; -fx-border-color: #FF0000;">
          <children>
             <ImageView fx:id="paneImage1" fitHeight="46.0" fitWidth="46.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </Pane>
-      <Pane fx:id="pane2" layoutX="158.0" layoutY="350.0" prefHeight="50.0" prefWidth="50.0" style="-fx-border-width: 2px; -fx-border-color: #FF0000;">
+      <Pane fx:id="pane2" layoutX="156.0" layoutY="421.0" prefHeight="50.0" prefWidth="50.0" style="-fx-border-width: 2px; -fx-border-color: #FF0000;">
          <children>
             <ImageView fx:id="paneImage2" fitHeight="46.0" fitWidth="46.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </Pane>
-      <Pane fx:id="pane3" layoutX="218.0" layoutY="350.0" prefHeight="50.0" prefWidth="50.0" style="-fx-border-width: 2px; -fx-border-color: #FF0000;">
+      <Pane fx:id="pane3" layoutX="216.0" layoutY="421.0" prefHeight="50.0" prefWidth="50.0" style="-fx-border-width: 2px; -fx-border-color: #FF0000;">
          <children>
             <ImageView fx:id="paneImage3" fitHeight="46.0" fitWidth="46.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </Pane>
-      <Pane fx:id="pane5" layoutX="338.0" layoutY="350.0" prefHeight="50.0" prefWidth="50.0" style="-fx-border-width: 2px; -fx-border-color: #FF0000;">
+      <Pane fx:id="pane5" layoutX="336.0" layoutY="421.0" prefHeight="50.0" prefWidth="50.0" style="-fx-border-width: 2px; -fx-border-color: #FF0000;">
          <children>
             <ImageView fx:id="paneImage5" fitHeight="46.0" fitWidth="46.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </Pane>
-      <Pane fx:id="pane4" layoutX="278.0" layoutY="350.0" prefHeight="50.0" prefWidth="50.0" style="-fx-border-width: 2px; -fx-border-color: #FF0000;">
+      <Pane fx:id="pane4" layoutX="276.0" layoutY="421.0" prefHeight="50.0" prefWidth="50.0" style="-fx-border-width: 2px; -fx-border-color: #FF0000;">
          <children>
             <ImageView fx:id="paneImage4" fitHeight="46.0" fitWidth="46.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </Pane>
-      <Pane fx:id="pane6" layoutX="398.0" layoutY="350.0" prefHeight="50.0" prefWidth="50.0" style="-fx-border-width: 2px; -fx-border-color: #FF0000;">
+      <Pane fx:id="pane6" layoutX="396.0" layoutY="421.0" prefHeight="50.0" prefWidth="50.0" style="-fx-border-width: 2px; -fx-border-color: #FF0000;">
          <children>
             <ImageView fx:id="paneImage6" fitHeight="46.0" fitWidth="46.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </Pane>
-      <Pane fx:id="pane7" layoutX="458.0" layoutY="350.0" prefHeight="50.0" prefWidth="50.0" style="-fx-border-width: 2px; -fx-border-color: #FF0000;">
+      <Pane fx:id="pane7" layoutX="456.0" layoutY="421.0" prefHeight="50.0" prefWidth="50.0" style="-fx-border-width: 2px; -fx-border-color: #FF0000;">
          <children>
             <ImageView fx:id="paneImage7" fitHeight="46.0" fitWidth="46.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </Pane>
-      <Separator layoutX="90.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="6.0" style="-fx-background-color: #6495ED;" />
-      <Separator layoutX="510.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="6.0" style="-fx-background-color: #6495ED;" />
-      <VBox layoutX="515.0" prefHeight="400.0" prefWidth="85.0" style="-fx-border-radius: 50px;">
+      <Pane fx:id="pane8" layoutX="516.0" layoutY="421.0" prefHeight="50.0" prefWidth="50.0" style="-fx-border-width: 2px; -fx-border-color: #FF0000;">
          <children>
-            <Label alignment="CENTER" prefHeight="30.0" prefWidth="85.0" text="Nghĩa của từ:" />
-            <Label fx:id="wordExplain" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="85.0" textAlignment="CENTER" wrapText="true">
+            <ImageView fx:id="paneImage8" fitHeight="46.0" fitWidth="46.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+      <Separator layoutX="570.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="6.0" style="-fx-background-color: #6495ED;" />
+      <VBox layoutX="576.0" prefHeight="500.0" prefWidth="114.0" style="-fx-border-radius: 50px;">
+         <children>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="114.0" text="Nghĩa của từ:" />
+            <Label fx:id="wordExplain" alignment="CENTER" contentDisplay="CENTER" prefHeight="105.0" prefWidth="114.0" textAlignment="CENTER" wrapText="true">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -60,22 +65,23 @@
                   <Font size="14.0" />
                </font>
             </Label>
-            <Label alignment="CENTER" prefHeight="30.0" prefWidth="85.0" text="Điểm:" />
-            <Label fx:id="scoreLabel" alignment="CENTER" prefHeight="30.0" prefWidth="85.0" textAlignment="CENTER" wrapText="true" />
-            <Button fx:id="button" alignment="CENTER" mnemonicParsing="false" onAction="#onPlayAgainClick" onKeyPressed="#moveKeyPress" prefHeight="40.0" prefWidth="85.0" text="PLAY AGAIN" textAlignment="CENTER" />
+            <Label alignment="CENTER" prefHeight="46.0" prefWidth="114.0" text="Điểm:" />
+            <Label fx:id="scoreLabel" alignment="CENTER" prefHeight="30.0" prefWidth="114.0" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="button" alignment="CENTER" mnemonicParsing="false" onKeyPressed="#moveKeyPress" onMouseClicked="#onPlayAgainClick" prefHeight="43.0" prefWidth="114.0" text="PLAY AGAIN" textAlignment="CENTER" />
          </children>
       </VBox>
-      <VBox prefHeight="400.0" prefWidth="92.0">
+      <VBox prefHeight="500.0" prefWidth="92.0">
          <children>
             <Label alignment="CENTER" prefHeight="30.0" prefWidth="95.0" text="Hướng dẫn" textAlignment="CENTER" wrapText="true" />
             <Label text="Sử dụng phím trái, phải để di chuyển chữ cái vào đúng vị trí để tạo thành từ đúng với nghĩa đã cho." textAlignment="CENTER" wrapText="true" />
          </children>
       </VBox>
-      <Separator layoutX="150.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="6.0" />
-      <Separator layoutX="210.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="6.0" />
-      <Separator layoutX="270.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="6.0" />
-      <Separator layoutX="330.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="6.0" />
-      <Separator layoutX="390.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="6.0" />
-      <Separator layoutX="450.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="6.0" />
+      <Separator layoutX="150.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="6.0" />
+      <Separator layoutX="210.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="6.0" />
+      <Separator layoutX="270.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="6.0" />
+      <Separator layoutX="330.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="6.0" />
+      <Separator layoutX="390.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="6.0" />
+      <Separator layoutX="450.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="6.0" />
+      <Separator layoutX="510.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="6.0" />
    </children>
 </Pane>
